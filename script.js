@@ -1,1 +1,2 @@
-const image = document.querySelector('img');
+const image = document.querySelector('.photo');
+const button = document.querySelector('.getJoke'); 
