@@ -4,6 +4,7 @@ const button = document.querySelector('.getJoke');
 button.addEventListener('click', function(){
   getRandomJoke();
 })
+
 function getRandomJoke(){
   const ajax = new XMLHttpRequest;
   const url = 'https://api.chucknorris.io/jokes/random'
