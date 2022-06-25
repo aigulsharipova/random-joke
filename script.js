@@ -1,5 +1,6 @@
 const image = document.querySelector('.photo');
 const button = document.querySelector('.getJoke'); 
+
 button.addEventListener('click', function(){
   getRandomJoke();
 })
